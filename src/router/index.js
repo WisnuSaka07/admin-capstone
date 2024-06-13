@@ -3,6 +3,8 @@ import Login from '../views/Login.vue'
 import Dashboard from '../views/Dashboard.vue'
 import Traffic from '../components/Traffic.vue'
 import Feedback from '../components/Feedback.vue'
+import Manage from '../components/Manage.vue'
+import EditNode from '../components/EditNode.vue'
 
 const routes = [
   {
@@ -30,6 +32,18 @@ const routes = [
     name: 'Feedback',
     component: Feedback,
     meta: { title: 'Feedback' }
+  },
+  {
+    path: '/manage',
+    name: 'Manage',
+    component: Manage,
+    meta: { title: 'Manage' }
+  },
+  {
+    path: '/edit/:nodeId',
+    name: 'EditNode',
+    component: EditNode,
+    props: true
   }
 ]
 
