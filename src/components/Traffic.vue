@@ -4,8 +4,9 @@
       <router-link to="/dashboard" class="btn1" href="#">Home</router-link>
       <router-link to="/traffic" class="active" href="#">Traffic</router-link>
       <router-link to="/feedback" class="btn1" href="#">Feedback</router-link>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+      <router-link to="/manage" class="btn3" href="#">Manage</router-link>
+      <!-- <a href="#contact">Contact</a>
+      <a href="#about">About</a> -->
       <router-link to="/login" class="active1" href="#">Log Out</router-link>
     </div>
 

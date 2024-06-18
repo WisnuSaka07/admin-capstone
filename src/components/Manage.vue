@@ -1,11 +1,13 @@
 <template>
     <div>
         <div class="sidebar">
-            <div class="logo">Your Logo</div>
-            <router-link to="/dashboard" class="btn1">Home</router-link>
-            <router-link to="/traffic" class="btn1">Traffic</router-link>
-            <router-link to="/feedback" class="active">Feedback</router-link>
-            <router-link to="/login" class="active1">Log Out</router-link>
+            <router-link to="/dashboard" class="btn1" href="#">Home</router-link>
+      <!-- <router-link to="/traffic" class="btn1" href="#">Traffic</router-link> -->
+      <router-link to="/feedback" class="btn1" href="#">Feedback</router-link>
+      <router-link to="/manage" class="active" href="#">Manage</router-link>
+      <!-- <a href="#contact">Contact</a>
+      <a href="#about">About</a> -->
+      <router-link to="/login" class="active1" href="#">Log Out</router-link>
         </div>
 
         <div class="content">
